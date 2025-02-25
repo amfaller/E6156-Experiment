@@ -26,7 +26,7 @@ The kernel module is installed and removed with each double-click of the desktop
 The provided `uninstall.sh` script will clean any built files and remove the desktop icon.
 
 ## Demo
-TODO
+[https://youtu.be/OXoeEqkWB4U](https://youtu.be/OXoeEqkWB4U)
 
 ## References
 * https://www.linuxjournal.com/article/8110
