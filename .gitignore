@@ -1,0 +1,13 @@
+driver/.Module.symvers.cmd
+driver/.malwareDriver.ko.cmd
+driver/.malwareDriver.mod.cmd
+driver/.malwareDriver.mod.o.cmd
+driver/.malwareDriver.o.cmd
+driver/.modules.order.cmd
+driver/Module.symvers
+driver/malwareDriver.ko
+driver/malwareDriver.mod
+driver/malwareDriver.mod.c
+driver/malwareDriver.mod.o
+driver/malwareDriver.o
+driver/modules.order
