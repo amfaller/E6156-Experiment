@@ -12,7 +12,7 @@ The idea behind this experiment is to demonstrate the dangers of third-party ker
 However, hidden from the user is the installation of the kernel module located in the [`driver`](./driver) directory. This module reads a file (hardcoded to `/home/tony/Documents/mySecret.txt`) and simply prints to kernel output. One can imagine this extending to reading all files in a given system and publishing data via the network, which is a major invasion of privacy completely hidden from the user.
 
 ## Getting Started
-This experiment was developed on a virtual machine (VM) running Ubuntu 24.10. The only required dependencies are `git` (to clone the repo), `make`, and `gcc-14` (both to build the kernel module). This experiment also assumes that `firefox` can be run from the command line.
+This experiment was developed on a virtual machine (VM) running Ubuntu 24.10. The only required dependencies are `git` (to clone the repo), `make`, and `gcc-14` (both to build the kernel module), and `zenity` (to mimic an arbitrary user-level game program).
 
 1. Clone the repository
 2. Modify the `SECRET_PATH` macro in [`driver/malwareDriver.c`](./driver/malwareDriver.c) to point at an appropraite file
