@@ -49,10 +49,10 @@ DESKTOP_ICON_PATH="/home/$USER/Desktop/LoadKernelModule.desktop"
 
 DESKTOP_CONTENT="[Desktop Entry]
 Version=1.0
-Name=Load Kernel Module
-Comment=Click to load the kernel module
+Name=TUG: Totally Unsuspicious Game
+Comment=Click to launch TUG!
 Exec=$SCRIPT_PATH
-Icon=utilities-terminal
+Icon=applications-games
 Terminal=false
 Type=Application
 Categories=Utility;"
